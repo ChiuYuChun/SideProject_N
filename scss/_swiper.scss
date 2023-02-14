@@ -1,0 +1,97 @@
+.swiper-first {
+
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    
+    img{
+      width: 95%;
+      border-radius: 12px;
+      
+    }
+    @media(max-width:768px){
+      width: 80%;
+      margin: 0 auto;
+      }
+      
+}
+.swiper-button-next,.swiper-button-prev{
+ margin-right: 25px;
+//  background-color: white;
+    background-color: rgba(53, 53, 53, 0.9);
+    
+    right:10px;
+    padding: 24px;
+    color: rgb(255, 255, 255) !important;
+    fill: black !important;
+    stroke: black !important;
+    border-radius: 50px;
+    &:hover{
+      margin-right: 25px;
+      //  background-color: white;
+          background-color:rgba(53, 53, 53, 0.7);
+          right:10px;
+          padding: 24px;
+          color:rgb(255, 255, 255) !important;
+          fill: black !important;
+          stroke: black !important;
+    }
+}
+
+:root {
+   --swiper-navigation-size: 18px !important;
+  
+}
+// .aboutus{
+
+// }
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear;    /*之前是ease-out*/
+  -moz-transition-timing-function: linear;
+  -ms-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+
+  margin: 0 auto;
+  position: relative;
+  
+  img{
+  
+    border-radius: 12px;
+    
+  }
+  @media(max-width:768px){
+    width: 80%;
+    margin: 0 auto;
+    }
+}
+
+
+//scss
+@keyframes scroll{
+  from{transform: translateX(100%)}
+  to{transform: translateX(-100%)}
+}
+
+@keyframes scroll2{
+  from{transform: translateX(0%)}
+  to{transform: translateX(-200%)}
+}
+
+.aboutus{
+  width: 100%;
+  margin-bottom: 50px;
+.about-text{
+  margin: 50px 0;
+}
+} 
+
+.mySwiper2{
+  img{
+    width: 300px;
+  }
+  @media(max-width:768px){
+    img{
+    width: 250px;}
+  }
+}
